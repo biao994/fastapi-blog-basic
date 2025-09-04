@@ -186,8 +186,8 @@ async def root():
     """欢迎页面"""
     logger.info("访问根路由")
     return {
-        "message": "欢迎使用博客系统API v5.0",
-        "version": "5.0.0",
+        "message": "欢迎使用博客系统API v6.0",
+        "version": "6.0.0",
         "docs": "/docs",
         "features": [
             "用户管理", 
@@ -197,7 +197,8 @@ async def root():
             "异步优化", 
             "CORS支持",
             "请求日志",
-            "异常处理"
+            "异常处理",
+            "依赖注入"
         ],
         "next_version": "Day6将添加依赖注入"
     }
@@ -212,7 +213,7 @@ async def health_check(db: AsyncSession = Depends(get_async_db)):
         
         return {
             "status": "healthy",
-            "version": "5.0.0",
+            "version": "6.0.0",
             "users_count": user_count,
             "posts_count": post_count,
             "database": "SQLite with async support",
