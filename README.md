@@ -4,7 +4,7 @@
 
 ## 📚 教程系列
 
-本项目配套完整的博客教程系列[7天入门FastAPI后端开发](https://blog.csdn.net/weixin_46253270/category_13035817.html)，详细讲解每个版本的实现过程：
+本项目配套完整的博客教程系列[7天入门FastAPI](https://blog.csdn.net/weixin_46253270/category_13035817.html)，详细讲解每个版本的实现过程：
 
 - **Day1**: 基础搭建 - FastAPI 项目初始化和基本 API
 - **Day2**: 数据验证增强 - Pydantic 模型和输入验证
